@@ -17,7 +17,7 @@ export default function Index() {
   useEffect(() => {
     // Custom CSS classes for elements from the index.html
     const rootElement = document.getElementById('root');
-    classes = rootElement.classList;
+    const classes = rootElement.classList;
     rootElement.classList.remove(...classes);
     rootElement.classList.add(...'bg-black'.split(' '));
   });
